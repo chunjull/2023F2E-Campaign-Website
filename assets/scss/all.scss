@@ -1,5 +1,16 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "./utils/variables";
+@import "../../node_modules/bootstrap/scss/variables-dark";
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "./utils/utilities";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "./utils/mixin";
+@import "./base/base";
+@import "./base/fontStyle";
+@import "./base/icons";
+
+
 @import './layout/header.scss';
 @import './layout/footer.scss';
-
-
 @import './pages/index.scss';
