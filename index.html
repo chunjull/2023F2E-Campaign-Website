@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>index</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
-    <script type="module" crossorigin src="/web-layout-training-vite/assets/main-696391e4.js"></script>
-    <link rel="stylesheet" href="/web-layout-training-vite/assets/main-5940a131.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script type="module" crossorigin src="/web-layout-training-vite/assets/main-7d296480.js"></script>
+    <link rel="stylesheet" href="/web-layout-training-vite/assets/main-9f88c100.css">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg">
@@ -42,10 +42,10 @@
           <a class="nav-link disabled">Disabled</a>
         </li>
       </ul>
-      <ul class="list-unstyled d-flex">
-        <li><a href="#"><i class="ph ph-facebook-logo"></i></a></li>
-        <li><a href="#"><i class="ph ph-instagram-logo"></i></a></li>
-        <li><a href="#"><i class="ph ph-youtube-logo"></i></a></li>
+      <ul class="list-unstyled d-flex flex-column flex-lg-row">
+        <li class="pe-lg-5 pb-5 pb-lg-0"><a href="#"><i class="ph ph-facebook-logo fs-2 text-black"></i></a></li>
+        <li class="pe-lg-5 pb-5 pb-lg-0"><a href="#"><i class="ph ph-instagram-logo fs-2 text-black"></i></a></li>
+        <li class="pe-lg-0 pb-5 pb-lg-0"><a href="#"><i class="ph ph-youtube-logo fs-2 text-black"></i></a></li>
       </ul>
     </div>
   </div>
@@ -53,7 +53,40 @@
     <h1 class="index-title">我是首頁</h1>
     <img src="/web-layout-training-vite/assets/event-1-a8b9b30e.png" style="width: 300px;" alt="cat">
 
-    <footer class="footer">我是 footer</footer>
+    <footer class="footer bg-black py-9">
+  <div class="container mb-7 mb-lg-9 d-flex flex-column flex-lg-row justify-content-between">
+    <div>
+      <h2 class="mb-5 mb-lg-0">
+        <a href="index.html" class="footer-logo"></a>
+      </h2>
+      <ul class="list-unstyled d-flex d-lg-none">
+        <li class="pe-5"><a href="#"><i class="ph ph-facebook-logo fs-3 text-white"></i></a></li>
+        <li class="pe-5"><a href="#"><i class="ph ph-instagram-logo fs-3 text-white"></i></a></li>
+        <li><a href="#"><i class="ph ph-youtube-logo fs-3 text-white"></i></a></li>
+      </ul>
+    </div>
+    <div class="d-flex flex-column flex-lg-row gap-9">
+      <div>
+        <h5 class="fs-6 text-primary mb-3 mb-lg-5">快速連結</h5>
+        <ul class="list-unstyled d-flex flex-row flex-lg-column mb-0">
+          <li class="me-5 me-lg-0 mb-lg-1"><a href="#" class="text-white">首頁</a></li>
+          <li class="me-5 me-lg-0 mb-lg-1"><a href="#" class="text-white">最新活動</a></li>
+          <li class="me-5 me-lg-0 mb-lg-1"><a href="#" class="text-white">政策議題</a></li>
+          <li><a href="#" class="text-white">小額捐款</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5 class="fs-6 text-primary mb-3 mb-lg-5">與我們聯繫</h5>
+        <ul class="list-unstyled mb-0">
+          <li class="mb-1"><a href="#" class="text-white"><i class="ph ph-map-pin text-primary align-middle me-1"></i>新星區閃耀大道88號 喵喵大樓3樓</a></li>
+          <li class="mb-1"><a href="#" class="text-white"><i class="ph ph-phone text-primary align-middle me-1"></i>(02) 888-5678</a></li>
+          <li><a href="#" class="text-white"><i class="ph ph-envelope text-primary align-middle me-1"></i>supernova.black@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <p class="text-white text-center mb-0">© 2023 黑新星 Supernova Black 版權所有。</p>
+</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     
   </body>
