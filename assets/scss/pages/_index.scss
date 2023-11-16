@@ -1,3 +1,4 @@
+/*
 .banner-bg {
   background-image: url("https://github.com/chunjull/2023F2E-Campaign-Website/blob/main/assets/images/banner-lg.png?raw=true");
   width: 1296px;
@@ -5,6 +6,20 @@
   background-position: center;
   background-repeat: no-repeat;
 
+}
+*/
+
+.banner-bg {
+  background-color: $danger;
+  border-radius: 16px;
+  width: 100vw;
+  height: 640px;
+}
+
+.banner-text {
+  font-size: 260px;
+  line-height: 1.23;
+  letter-spacing: 13px;
 }
 
 .banner-vote {
@@ -17,4 +32,28 @@
   height: 407px;
   bottom: -16px;
   right: -16px;
+}
+
+.banner-intro {
+  bottom: 16px;
+  right: 169px;
+}
+
+.nav-tabs > .nav-item > .active {
+  background: $warning;
+}
+
+.rotate {
+  position: absolute;
+  left: 104px;
+  top: 52px;
+  z-index: -1;
+}
+
+.contact-cat {
+  height: 337px;
+  width: 297px;
+  z-index: -1;
+  bottom: 2px;
+  left: -214px;
 }
