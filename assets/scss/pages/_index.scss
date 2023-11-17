@@ -39,8 +39,39 @@
   right: 169px;
 }
 
-.nav-tabs > .nav-item > .active {
-  background: $warning;
+.event-img {
+  width: 95%;
+  height: 95%;
+  position: relative;
+  z-index: 2;
+}
+
+.bg-img {
+  width: 31.5%;
+  height: 95%;
+  position: absolute;
+  bottom: 0;
+  left: 12px;
+  z-index: 1;
+
+  @include mobile {
+    width: 95%;
+    height: 58%;
+    top: 20px;
+  }
+}
+
+.nav-tabs > .nav-item  {
+  background-color: $secondary;
+  border-radius: 16px 16px 0 0;
+
+  &:hover {
+    background-color: $success;
+  }
+
+  .active {
+    background-color: $warning;
+  }
 }
 
 .rotate {
@@ -48,6 +79,22 @@
   left: 104px;
   top: 52px;
   z-index: -1;
+}
+
+.donation-box:hover {
+  background-color: $black;
+  
+  p {
+    color: $success;
+
+    span {
+      color: $info;
+    }
+  }
+  
+  .donation-num {
+    color: $black;
+  }
 }
 
 .contact-cat {
